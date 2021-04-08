@@ -11,8 +11,7 @@ def calculateNGrams(text, n):
     for x in range(0, len(a)):
         new = a[x: n + x]
         if (len(new) == n):
-            strs = ""
-            list(new)
+            strs = ""           
             lists = strs.join(new)
             print(lists, end=" ")
 
