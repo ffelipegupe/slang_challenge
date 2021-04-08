@@ -17,4 +17,3 @@ def calculateNGrams(text, n):
             print(lists, end=" ")
 
 calculateNGrams("Slang", 2)
-
